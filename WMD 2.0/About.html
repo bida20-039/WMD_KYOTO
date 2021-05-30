@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1 >
+        <title>Nikon Epics</title> 
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+        
+    </head>
+    <body>
+        <nav class="nav-bar w3-bar w3-black">
+            <a href="#Home" class="nav-button bar item">Home</a>
+            <a href="#About" class="nav-button bar item">About</a>
+            <a href="#Lifestyle" class="nav-button bar item">Lifestyle</a>
+            <a href="#Events" class="nav-button bar item">Events</a>
+            <a href="#Contact" class="nav-button bar item">Contact</a>
+
+        </nav>
+        <section>
+            <img class="Slides" src="images/kyoto h.jpg" style="width: 100%" >
+            <img class="Slides" src="images/kyoto nightlife.jpg" style="width: 100%" >
+            <img class="Slides" src="images/best-ryokan-in-kyoto.jpg" style="width: 100%">
+            <img class="Slides" src="images/The-Kyoto-Conference-on-Arts-Media-Culture-7.jpg" style="width: 100%">
+            <img class="Slides" src="images/famous-temple-in-kyoto-japan.jpg" style="width: 100%" >
+            <img class="Slides" src="images/kyoto--235402-0.jpg" style="width: 100%" >
+        </section>
+
+
+
+<!---City Itroduction---->
+<div id="about" class="intro">
+    <h1><b>KYOTO</b></h1>
+    <p>Kyoto, officially Kyoto City, is the capital city of Kyoto Prefecture in Japan. 
+        Located in the Kansai region on the island of Honshu, Kyoto forms a part of the Keihanshin 
+        metropolitan area along with Osaka and Kobe. As of 2018, the city had a population of 1.47 million.</p>
+        <p>For over a thousand years, Kyoto was the Imperial capital of Japan, the main reason why it is teeming with structures and customs from the bygone times. This makes the city an attractive choice for foreigners who are interested to dig deeper into traditional Japanese culture.
+            Today, Japan’s seat of power is Tokyo. Yet, Kyoto is still the cultural core of the archipelago.
+             Kyoto remains home to impressively maintained and restored ancient temples and shrines. When most major cities in Japan have shifted to highlighting its modern and futuristic attractions, 
+             Kyoto remains steady in its dwelling in the past and flaunting its cultural heritage.
+             Kyoto pulsates at its own pace, a bit slower but curiously mesmerizing.</p>
+             <h2><b>Need to know facts</b></h2>
+             <p><b>Language</b>- Japanese, however in mordern times more locals speak English and even signs have English translation</p>
+             <p><b>Currency</b> - Japanese Yen. 1000 Japanese Yen is equivalent to about 10USD</p>
+             <p><b>Money Exchange</b> - Although there are a establishments across Kyoto that do exchange currencies.
+                  It is recommended you do most/all of your currency exchanges before hand</p>
+             <p><b>Modes of paymenyt</b> - Most establishments prefer cash transaction, so it is better for you to be prepare to 
+                 do most of your transactions by cash to reduce inconveniences.
+             </p>
+            <div class="row">
+                <div class="column">
+                    <img src="images/Kyoto-Cherry-Blossoms.jpg" alt="Cherry Blossoms" style="width: 100%;">
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="images/Kyoto winter.jpg" alt="Kyoto in Winter" style="width: 100%;">
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/Winter_Kyoto.jpg" alt="Girl in Kyoto during winter" style="width: 100%;">
+                        </div>
+
+            </div>
+</div>
+<h2><b>Best Times to Visit Kyoto</b></h2>
+<p>Each season has its pros and cons but if you're looking for a visual spectacle,
+    your best bets would be
+    <ul>
+        <li>Late March to early April for the Cherry Blossoms</li>
+        <li>Mid-Late November for the beauticall colours of the fall</li>
+    </ul>
+</p>
+<p>You might want to avoid these times, which bring the largest crowds and the steepest prices.
+    <ul>
+        <li>Golden Week</li>(April 29 to 5 May)
+        <li>Obon Festival</li>(August 13 to 15)
+        <li>Cherry Blossoms</li>(Late March to Early April)
+    </ul>
+</p>
+<p><b>Autumn</b> is a great time to be in Kyoto because this is when the prices drop, crowds thin, and foliage turns fiery orange and red. Temperature is also pleasant and comfortable for sightseeing.</p>
+
+   <p><b>Winter</b> is great for budget travelers because airfares are lowest at this time. However, establishments tend to open later and close earlier.</p>
+   <p><b>Spring</b>is also the beginning of peak season, when cost of flights and hotel rooms begin to rise. Yes, the sakura experience is magical, but prepare to shell out more dough and share the place with a bigger crowd.</p>
+
+    <p><b>Summer</b> Not only are these months crowded, they can also be too hot. 
+     Longer days also mean you have more hours of daylight, more time to explore, and more opportunities to take wonderful photos.</p>
+
+    </body>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("Slides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+</script>
+
+
+
